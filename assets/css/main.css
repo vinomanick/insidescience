@@ -2285,6 +2285,13 @@ input, select, textarea {
 	.brand {
 		font-family: stopD, 'Source Sans Pro', sans-serif;
 	}
+
+	/* portfolio */
+	.portfolio-middle {
+		display: flex;
+		align-items: center;
+	}
+
 	/* Contact */
 	.address {
 		text-align: left;
@@ -2621,7 +2628,7 @@ input, select, textarea {
 			}
 
 			h2 {
-				font-size: 1.5em;
+				font-size: 1.4em;
 				letter-spacing: 0;
 				font-weight: 300;
 			}
@@ -2647,9 +2654,13 @@ input, select, textarea {
 				padding: 4em 0em;
 			}
 
-				#main section.cover header {
-					padding: 0 1em;
-				}
+			#main section.cover header {
+				padding: 0 1em;
+			}
+
+			#main > section.one, #main > section.five {
+				background-attachment: scroll;
+			}
 
 		/* Footer */
 
@@ -2661,8 +2672,7 @@ input, select, textarea {
 				margin: 1em 0 0 0;
 			}
 
-				#footer .copyright li:first-child {
-					margin-top: 0;
-				}
-
+			#footer .copyright li:first-child {
+				margin-top: 0;
+			}
 	}
